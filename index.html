@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Mohammad Javadi's Personal Site"/>
+    <meta name="keywords" content="Mohammad Javadi"/>
+    <meta name="author" content="Aaviya"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="style.css" media="screen"/>
+    <script src="js/jquery-1.9.1.js"></script>
+    <title>Mohammad Javadi</title>
+</head>
+
+<body>
+<div id="mainwrap">
+
+    <header>
+        <h1><a href="/">Mohammad Javadi</a></h1>
+        <ul id="menu">
+            <li><a class="profile" href="#profile" title="Profile">Profile</a><span>About Me</span></li>
+            <li><a class="projects" href="#projects" title="Projects">Projects</a></li>
+            <li><a class="publications" href="#publications" title="Publications">Publications</a><span>and Technical Reports</span>
+            </li>
+            <li><a class="contact" href="#contact" title="Contact">Contact</a><span>Get in touch</span></li>
+        </ul>
+    </header>
+    <div style="clear:both"></div>
+    <div id="content">
+        <div id="profile" class="section">
+            <div class="column col3">
+                <table id="bioinfo">
+                    <tbody>
+                    <tr>
+                        <td class="odd">Name</td>
+                        <td class="even">Mohammad Javadi</td>
+                    </tr>
+                    <tr>
+                        <td class="odd">Date of birth</td>
+                        <td class="even">July 20, 1994</td>
+                    </tr>
+                    <tr>
+                        <td class="odd">Originally from</td>
+                        <td class="even">Tehra, Iran</td>
+                    </tr>
+                    <tr>
+                        <td class="odd">Languages</td>
+                        <td class="even">Persian, English, Turkish</td>
+                    </tr>
+                    <tr>
+                        <td class="odd">Email</td>
+                        <td class="even">mohammadjv94@gmail.com</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <h1>Topics of Interest</h1>
+                <ul id="research" style="list-style-type:disc">
+                    <li>Computer Vision</li>
+                    <li>Digital Image Processing</li>
+                    <li>Deep Learning</li>
+                    <li>Computer Vision Neuro Science</li>
+                    <li>Intelligent Robotics</li>
+                </ul>
+            </div>
+            <div class="column col5 pl-50">
+                <div class="pic"><img src="img/mohammad.png" height="230" width="230" alt="Mohammad Javadi" id="pic"/></div>
+                </br>
+                <p>B.Sc student in Computer Engineering and Information Technology at <a href="http://www.aut.ac.ir/aut/fa/">Amirkabir University
+                    of Technology</a> (Tehran Polytechnic).</br></br>
+                    Diploma in Mathematics and Physics, Allame Helli(2) High School,
+                    Tehran, Iran, 2013. </p>
+                <p><a href="CV.pdf">Download PDF CV(Extended)</a></p>
+                <p><a href="CV(Short).pdf">Download PDF CV(Short)</a></p>
+            </div>
+        </div>
+
+        <div id="projects" class="section">
+            <table id="cv">
+                <h2>Projects</h2>
+                <tbody>
+                <tr>
+                <td class="col2">
+                        <div class="date">Bio-Inspired System Design Laboratory - Winter 2017</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Humanoid Robot Detection Using Deep Learning: A Speed-Accuracy Trade-off</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">We compare several two-stage detection systems based on various CNN's
+                            and highlight their speed-accuracy trade off. The approach performs edge based image segmentation
+                            in order to reduce the search space and then a CNN validates the detection in the second stage.
+                            Paper were published in RoboCup Symposium 2017.
+                            <a href="https://pdfwww.gakkai-web.net/gakkai/inter/robocup2017symposium/contents/html/papers/pdf/RoboCup_Symposium_2017_paper_41.pdf">(paper Link)</a>
+                            Codes are available on <a href="https://github.com/AUTManLab/HumanoidBodyDetection">Github</a>.
+                        </p>
+                        <div class="pic"><img src="img/ProposedApproach.png" alt="fig1" id="pic"/></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col2">
+                        <div class="date">Robotics Research Laboratory - Started Oct 2016</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">OpenVRI</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">OpenVRI is an open source project. It is a framework for Robotics AI
+                            algorithm experiments. It isolates robot's AI algorithms from ROS and provides tools and API
+                            for developing Intelligent Robots.
+                            Codes are available on <a href="https://github.com/VRI/OpenVRI">Github</a>.
+                        </p>
+                    </td>
+                </tr>
+
+
+                <!--
+                <tr>
+                    <td class="col2">
+                        <div class="date">Statistical Machine Learning - Fall 2016</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Implementing and Evaluating Naive Bayes Model and PGM for Classification of
+                            Illness
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">In this project, we implemented naive bayes model on a data set of heart
+                            disease<a href="http://archive.ics.uci.edu/ml/datasets/Heart+Disease">(UCI Heart Disease Data)</a>. Pre processing operations like discretizing continuous values and
+                            filling missing values were done. 2 probabilistic graphical model and 3 bayesian network
+                            using different subsets of data were trained and evaluated.
+                            Codes are available on <a
+                                    href="https://github.com/SajadAzami/Machine-Learning-Training/tree/master/Statistical%20Machine%20Learning/Naive%20Bayes%20and%20PGM">Github</a>.
+                        </p>
+                        <center>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <figure>
+                                            <img src="img/figure_1.png" alt="fig1" id="pic"/>
+                                            <figcaption>Data Visualization - 1</figcaption>
+                                        </figure>
+                                    </td>
+                                    <td>
+                                        <figure>
+                                            <img src="img/figure_2.png" alt="fig1" id="pic"/>
+                                            <figcaption>Data Visualization - 2</figcaption>
+                                        </figure>
+                                    </td>
+                            </table>
+                        </center>
+                <tr>
+                    
+                <tr>
+                    <td class="col2">
+                        <div class="date">Statistical Machine Learning - Fall 2016</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Implementing and Analysing Linear Regression on a Data Set of
+                            Student Grades</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">In this project, I implemented Simple Linear Regression
+                            and Lasso on 2 different datasets. Various evaluation metrics like RSS, R2,
+                            AIC and LOOCV were
+                            calculated and analyzed, on both train and test sets. Backward and Forward
+                            methods of model selection were examined and results were compared.
+                            Results are available in technical report
+                            here
+                            <a
+                                    href="https://github.com/SajadAzami/Machine_Learning-Training/tree/master/Statistical%20Machine%20Learning">Report</a>.
+                            Codes are available on <a
+                                    href="https://github.com/SajadAzami/Machine_Learning-Training/tree/master/Statistical%20Machine%20Learning/Final%20Project/Project%201">Github</a>.
+                        </p>
+                        <div class="pic"><img src="img/fig_2.png" alt="fig1" id="pic"/></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col2">
+                        <div class="date">Data Mining Group - Started Sept 2016</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">LinkedIn Recommender System</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">Designing and implementing a Recommender System to recommend similar
+                            users based on their skills and other various characteristics on LinkedIn.
+                        <div class="pic"><img src="img/fig_3.png" alt="fig3" id="pic"/></div>
+                        </br></p>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col2">
+                        <div class="date">Robotics Research Laboratory - Jan 2017</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Image Compressor Using Low Rank Matrix Approximation</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">Description to be added soon.
+                        <div class="pic">
+                            <center>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <figure>
+                                                <img src="img/20_approximation.jpg" width="420" height="262" alt="fig1"
+                                                     id="pic"/>
+                                                <figcaption>Rank 20 Approximation</figcaption>
+                                            </figure>
+                                        </td>
+                                        <td>
+                                            <figure>
+                                                <img src="img/100_approximation.jpg" width="420" height="262" alt="fig1"
+                                                     id="pic"/>
+                                                <figcaption>Rank 100 Approximation</figcaption>
+                                            </figure>
+                                        </td>
+
+                                    <tr>
+                                        <td>
+                                            <figure>
+                                                <img src="img/compression_ratio.jpg" width="420" height="262" alt="fig1"
+                                                     id="pic"/>
+                                                <figcaption>Compression Ratio vs Rank</figcaption>
+                                            </figure>
+                                        </td>
+                                        <td>
+                                            <figure>
+                                                <img src="img/mse.jpg" width="420" height="262" alt="fig1" id="pic"/>
+                                                <figcaption>Mean Squared Error</figcaption>
+                                            </figure>
+                                        </td>
+                                </table>
+                            </center>
+                        </div>
+                        </br></p></br></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col2">
+                        <div class="date">Robotics Research Laboratory - Jan 2017</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Face Recognition Using SVD</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">Description to be added soon.
+                        <div class="pic">
+                            <center>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <figure>
+                                                <img src="img/fig_4.jpg" width="180" height="200" alt="fig1" id="pic"/>
+                                                <figcaption>Mean Face.</figcaption>
+                                            </figure>
+                                        </td>
+                                        <td>
+                                            <figure>
+                                                <img src="img/fig_5.jpg" width="180" height="200" alt="fig1" id="pic"/>
+                                                <figcaption>Sample of Used Dataset.</figcaption>
+                                            </figure>
+                                        </td>
+                                </table>
+                            </center>
+                        </div>
+                        </p>
+                    </td>
+                </tr>
+
+                
+
+                <tr>
+                    <td class="col2">
+                        <div class="date">Data Mining Group - Nov 2016</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Credit Card Transaction Fraud Detection</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">This was a project done for a data mining contest. The goal was to
+                            classify credit card transaction as fraud or non-fraud.
+                            Codes are available on <a
+                                    href="https://github.com/SajadAzami/DataMining-Training/tree/master/Fanavard/Question%203">Github</a>.
+                        <div class="pic"><img src="img/fig_2.png" alt="fig1" id="pic"/></div>
+                        </br></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col2">
+                        <div class="date">Robotics Research Laboratory - March 2016</span>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">SOSVR Base Code</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">Base code of <a href="http://sosvr.github.io">SOSVR team </a>for Virtual
+                            Robot Competition, including behaviour,
+                            pedestrian detection, navigation and bring-up packages. (Python, C++, XML, ROS, Pedesterian
+                            Detection).
+                            Final released codes are available on team's <a
+                                    href="https://github.com/SOSVR/base_code">Github</a>.
+                            Original repository was <a href="https://github.com/SOSVR/SOSVR2016">here</a>.
+                            <br></br>
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/GbjNBWNvNUI"
+                                    frameborder="0" allowfullscreen=""></iframe>
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col2">
+                        <div class="date">Robotics Research Laboratory - September 2015</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Ice-Fire Challenge</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">Implementation of a multi agent algorithm for Ice-Fire challenge held at
+                            Sharif University of Technology, Tehran, Iran.
+                            Codes are available on <a
+                                    href="https://github.com/SajadAzami/Ice-Fire-AIChallenge">Github</a>.</p>
+                    </td>
+                </tr>
+                -->
+                </tbody>
+            </table>
+        </div>
+
+
+        <div id="publications" class="section">
+            <table id="cv">
+                <!-- <h2>Teaching Experiences</h2> -->
+                <tbody>
+                <tr>
+                    <!-- <td class="col2"><div class="date">2013 - 2015</div></td> -->
+                    <td class="col6 pl-30">
+                        <p class="teach">Publications</p>
+                        <lu style="list-style-type:disc">
+							<li class="pubs">Javadi M, Azar SM, Azami S, Shiry S, Ghidary SS, Baltes J. Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Tradeoff.
+                                International Robocup Symposium 2018
+                                <a href="https://pdfwww.gakkai-web.net/gakkai/inter/robocup2017symposium/contents/html/papers/pdf/RoboCup_Symposium_2017_paper_41.pdf">(Link)</a>
+                            </li>
+                            <lu style="list-style-type:disc">
+								<li class="pubs">
+                                    Sadeghnejad S, Baltes J, Ramezani S, Javadi M, Karimi M, Valaei A, Santos J, Poon T, Yazadnkhou B, Alihosseini D, Hosseini MS. AUTMan Humanoid TeenSize Team Description Paper. Development.;1(2):4-5.
+                                    <a href="http://www.ais.uni-bonn.de/robocup.de/2016/TDPs/Humanoid/RoboCup_2016_Humanoid_TeenSize_TDP_AUTMan.pdf">(Link)</a>
+								</li>
+                            </lu>
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+
+        <div id="contact" class="section">
+            <div class="column col3">
+                <h3>Mohammad Javadi</h3>
+                <p>Tehran, Iran</p>
+                <p>E-mail: <br/>
+                    mohammadjv94@gmail.com<br/>
+                    mohammad.javadi@aut.ac.ir</p>
+                <p>Mobile: +98 936 481 9275 </p>
+                <li class="list-group-item"><a href="https://github.com/mohammadjv6"><i </i> Github</a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/mohammadjavadi"><i </i> LinkedIn</a></li>
+                <li class="list-group-item"><a href="http://autman.aut.ac.ir"><i </i> AUTMan Humanoid Robotic Team</a></li>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".section").not(":first").hide();
+            $("ul#menu li:first").addClass("active").show();
+
+            $("ul#menu li").click(function () {
+                $("ul#menu li.active").removeClass("active");
+                $(this).addClass("active");
+                $(".section").slideUp();
+                $($('a', this).attr("href")).slideDown('slow');
+
+                return false;
+            });
+
+        });
+    </script>
+</div>
+</body>
+</html>
