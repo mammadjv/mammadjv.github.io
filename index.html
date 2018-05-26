@@ -160,18 +160,17 @@
                         <p class="company"> Implementation of a Base Code for Vehicle Registration Plate Detection</p>
                         <p class="title">Mobin Intelligent System , Tehran, Iran</p>
                         <p class="description">
-                            Detection and recognition of vehicle registration plate in urban traffic camera's was our system goal.
-                            The constraint of this project was the system processor which was a DSP board and it's not possible
-                            to use high-level c++ libraries(like OpenCV, Qt and etc) on this board.  <br />
+                            Detection and recognition of vehicle registration plate in urban traffic cameras was the goal of our system.
+                            The constraint of this project was the system processor that was a DSP board and forced us not to use 
+                            high-level c++ libraries(like OpenCV, Qt and etc).  <br />
                             For mentioned purpose and problem, I implemented a low-level image processing framework which contains some basic
                             functions(matrix operations, filters, convolutions, edge-based methods and etc.),
-                            as they are implemented in OpenCV. <br />
+                            as they are implemented in OpenCV library. <br />
                             In another level of the work, in the task of plate detection, me and my other teammates studied about
                             HOG(Histogram of Oriented Gradients) and ACF(Aggregate Channel Features) features on image, and we believed
-                            that in this task, ACF features are more useful. <br />
+                            that in our task, ACF features are more useful. <br />
                             As is mentioned above, the processor was a DSP board and it wasn't feasible to use <a style="color: blue;"  href="https://gitlab.com/EAVISE/publicwiki/wikis/acf-dollar-toolbox">ACF detector</a>
-                            (implemented in Matlab by <a style="color: blue;" href="https://scholar.google.com/citations?user=a8Y2OJMAAAAJ">Piotr Dollár</a> et al.)
-                            in this project. So another team was hired to convert the source code to low-level C++ code. <br />
+                            (implemented in Matlab by <a style="color: blue;" href="https://scholar.google.com/citations?user=a8Y2OJMAAAAJ">Piotr Dollár</a> et al.) directly. So another team was hired to convert the source code to low-level C++ code. <br />
                             The final source code is not available because of the company rules.
                         </p>
                         <br />
@@ -187,11 +186,11 @@
                         <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
                         <p class="description">
                             In this research, we implemented a high-speed cognition module for AUTMan Humanoid Robotic Team.
-                            The outputs(ball, goal posts, lines, center-circle, and obstacles) of this system are inputs to localization and behavior modules.
+                            The outputs(ball, goal posts, lines, center-circle, and obstacles) of the system are considered as inputs to localization and behavior modules.
                             Challenges of the project are: <br />
                             1- Humanoids suffer from low-frequency processors, like our platform which has an Intel Celeron Dual Core 1.10GHz processor.<br />
                             2- Although robots in the soccer game field are placed in a high color information environment, many objects in the field have similarity in terms of color. This problem makes us use an edge-based color-aided method. <br />
-                            Our Algorithm average frequency is 25-30 Hz which seems appropriate for a humanoid robot.
+                            Our Algorithm's average frequency is 25-30 Hz which seems appropriate for a humanoid robot.
                             A complete description of our algorithm is explained <a style="color: blue;" href="./reports/AUTMAN_VisionTechnicalReport.pdf">here</a>.
                         </p>
                         <div class="pic"><img src="img/vision_test.png" alt="fig1" height="300" width="500" id="pic"/></div>
