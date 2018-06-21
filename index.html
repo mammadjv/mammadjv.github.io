@@ -66,7 +66,7 @@
 
 
             <div class="column col5 pl-50">
-                <div class="pic"><img src="img/mohammad.png" height="230" width="230" alt="Mohammad Javadi" id="pic"/></div>
+                <div class="pic"><img src="img/mohammad.png" height="230" width="230" alt="Mohammad Javadi" /></div>
                 </br>
                 <p>B.Sc student in Computer Engineering and Information Technology at <a href="http://www.aut.ac.ir/aut/fa/">Amirkabir University
                     of Technology</a> (Tehran Polytechnic).</br></br>
@@ -79,9 +79,46 @@
         <div id="projects" class="section">
             <br />
             <br />
-            <table id="cv">
-                <!-- <h1>Projects</h1> -->
+            <table class="cv">
                 <tbody>
+                <tr>
+                    <td class="col2">
+                        <div class="date">Cognitive Robotics Lab - September 2017 - March 2018 </div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company"> A Novel Method for Person Recognition Using Recurrent Neural Networks</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">
+                            In this research, we introduced and tested a model to improve <span style="font-weight: bold">Person Recognition</span> task's accuracy
+                            on Person In Photo Albums(PIPA) dataset by integration of
+                            <span style="font-weight: bold">Recurrent Neural Networks</span> and fusion of CNN's extracted features from the different body parts.<br>
+                            The result of the project is reported in our submitted paper for <a style="color: blue;" href="https://eccv2018.org/">ECCV2018</a>.
+                        </p>
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col2">
+                        <div class="date">Cognitive Robotics Lab - October 2017 - April 2018</div>
+                    </td>
+                    <td class="col6 pl-30">
+                        <p class="company">Vehicle Registration Plate Recognition using CNNs</p>
+                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
+                        <p class="description">In this project, that was my bachelor thesis, a two-stage system is implemented
+                            for detection and recognition of the Persian plates in urban traffic cameras. <br>
+                            For <span style="font-weight: bold">Plate Detection </span> phase, that includes finding the location of the plates in each frame of the test video,
+                            the Faster-RCNN method is used that generates plates' bounding boxes. <br/>
+                            Next level, <span style="font-weight: bold">Plate Recognition</span>, that predicts ID of the detected plates and actually behaves as an OCR
+                            module, includes two sub-levels: <br>
+                            First, image segmentation and some low-level image processing algorithms are used to find character contours
+                            in the plate. Then, a deep convolutional neural network(SqueezeNet) with 22 classes is used to calculate the type of each character.
+                            Implementation of the project is available on <a style="color: blue;" href="https://github.com/mammadjv/vehicle-registration-plate-recognition">Github</a>.
+                        </p>
+                        <div class="pic"><img src="img/detected.png" alt="fig1" /></div>
+                        <br />
+                    </td>
+                </tr>
+
                 <tr>
                     <td class="col2">
                         <div class="date">Bio-Inspired System Design Laboratory - Spring 2017</div>
@@ -96,26 +133,10 @@
                             <a style="color: blue;" href="https://www.robocup2017.org/file/symposium/RoboCup_Symposium_2017_paper_41.pdf">(paper Link)</a>
                             Codes are available on <a style="color: blue;" href="https://github.com/AUTManLab/HumanoidBodyDetection">Github</a>.
                         </p>
-                        <div class="pic"><img src="img/ProposedApproach.png" alt="fig1" id="pic"/></div>
+                        <div class="pic"><img src="img/ProposedApproach.png" alt="fig1"/></div>
                         <br />
                     </td>
                 </tr>
-                <!--
-                <tr>
-                    <td class="col2">
-                        <div class="date">Robotics Research Laboratory - January 2017</div>
-                    </td>
-                    <td class="col6 pl-30">
-                        <p class="company">OpenVRI</p>
-                        <p class="title">Amirkabir University of Technology, Tehran, Iran</p>
-                        <p class="description">OpenVRI is an open source project. It is a framework for Robotics AI
-                            algorithm experiments. It isolates robot's AI algorithms from ROS and provides tools and API
-                            for developing Intelligent Robots.
-                            Codes are available on <a href="https://github.com/VRI/OpenVRI">Github</a>.
-                        </p>
-                    </td>
-                </tr>
-                -->
                 <tr>
                     <td class="col2">
                         <div class="date">Bio-Inspired System Design Laboratory - Started February 2016, Ended May 2017</div>
@@ -129,7 +150,7 @@
                             by humanoid cognition module, we can use relative distances to our self in order to find our location in a soccer field.
                             Source code is not released because of the team rules.
                         </p>
-                        <div class="pic"><img src="img/particle_filter.png" alt="fig1" height="300" width="500" id="pic"/></div>
+                        <div class="pic"><img src="img/particle_filter.png" alt="fig1" height="300" width="500" /></div>
                         <br />
                     </td>
                 </tr>
@@ -191,7 +212,7 @@
                             Our Algorithm's average frequency is 25-30 Hz which seems appropriate for a humanoid robot.
                             A complete description of our algorithm is explained <a style="color: blue;" href="./reports/AUTMAN_VisionTechnicalReport.pdf">here</a>.
                         </p>
-                        <div class="pic"><img src="img/vision_test.png" alt="fig1" height="300" width="500" id="pic"/></div>
+                        <div class="pic"><img src="img/vision_test.png" alt="fig1" height="300" width="500"/></div>
                         <br />
                     </td>
                 </tr>
@@ -201,7 +222,7 @@
 
 
         <div id="publications" class="section">
-            <table id="cv">
+            <table class="cv">
                 <!-- <h2>Teaching Experiences</h2> -->
                 <tbody>
                 <tr>

@@ -328,13 +328,13 @@ Span 8:    100%
   opacity: 0.5
 }
 
-#cv {
+.cv{
   margin:0;
   padding:0;
   border-collapse: collapse;
 }
 
-#cv .date {
+.cv .date {
   position: relative;
   padding: 10px;
   color: #ffffff;
@@ -342,7 +342,7 @@ Span 8:    100%
 }
 
 /* creates triangle */
-#cv .date:after {
+.cv .date:after {
   content: "";
   display: block; /* reduce the damage in FF3.0 */
   position: absolute;
@@ -355,25 +355,25 @@ Span 8:    100%
   margin-top:-10px;
 }
 
-#cv .company {
+.cv .company {
   font-size:28px;
   margin:0;
   padding:0;
 }
 
-#cv .title {
+.cv .title {
   font-size:22px;
   margin:0;
   padding:0;
 }
 
-#cv .description {
+.cv .description {
   font-size:15px;
   margin:10px 0 30px;
   padding:0;
 }
 
-#cv .teach{
+.cv .teach{
   font-weight: bold;
   font-size: 19px;
   /*padding: 0;
@@ -381,17 +381,17 @@ Span 8:    100%
   line-height: 17px;
 }
 
-#cv .teaching{
+.cv .teaching{
   padding-left: 1.3em;
 }
 
-#cv .pubs{
+.cv .pubs{
   padding-left: 1.3em;
   line-height: 25px;
   padding-bottom: 15px;
 }
 
-#cv .course{
+.cv .course{
   font-size: 17px;
   margin-top: 10px;
   margin-bottom: 2px;
